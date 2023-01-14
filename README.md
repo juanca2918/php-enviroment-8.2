@@ -16,3 +16,13 @@ Imagen de redis
 - dpage/pgadmin4:latest
 Imagen del cliente administrador de base de datos
 ---
+
+### Comandos para el deploy
+- docker compose build
+Para construir la imagen del Dockerfile
+
+- docker compose up -d
+Para montar los contenedores, el **-d** es para que ejecute el comando en segundo plano.
+
+- docker compose down
+Para desmontar los contenedores
